@@ -6,7 +6,12 @@ namespace Project3
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string greeting = "Hello world!";
+            for(int i = (greeting.Length - 1); i >= 0; i--)
+            {
+                Console.Write(greeting[i]);
+            }
+            Console.WriteLine();
         }
     }
 }
